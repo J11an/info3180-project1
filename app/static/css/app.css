@@ -1,3 +1,165 @@
-body {
-    padding-top: 5rem;
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
 }
+
+body {
+	margin-top: 100px;
+	background-color: rgb(231, 228, 228);
+}
+
+.container {
+
+
+	margin-left:100px;
+	width:60%;
+	
+
+}
+
+
+.container h1 {
+
+	font-size: 42px;
+	font-weight:bolder ;
+}
+.container2{
+
+	font-weight: bold;
+	padding:40px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.test{
+
+	width:110px;
+
+
+}
+
+.form-control{
+
+	resize: none;
+}
+
+
+.allproperties{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	column-gap:50px;
+	row-gap:50px;
+}
+
+.icon{
+	height:18px;
+	width:18px;
+}
+
+
+.photo{
+	height: 250px;
+	width:400px;
+}
+
+.property{
+	background-color:white;
+}
+
+
+.propprice{
+	border-radius:20px;
+	width:100px;
+	background:#3366FF;
+	color:white;
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+
+.plocation{
+	color:gray;
+	padding-bottom: 10px;
+
+}
+
+.btn{
+	width:100%;
+	background-color:#34bdbd;
+	color: white;
+}
+
+
+.ptitle{
+	
+	font-size:18px;
+
+}
+
+
+.info{
+	padding:10px;
+}
+
+.container h2{
+
+	font-weight: bold;
+}
+
+
+.property2{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	background-color:white;
+	margin-top:100px;
+}
+
+.photo2{
+	height: 350px;
+	width:500px;
+	float:left;
+	padding-right: 40px;
+}
+
+.bedbathgrid{
+
+	display:grid;
+	grid-template-columns: 120px 120px;
+
+}
+
+.ptype{
+
+	border-radius:20px;
+	width:100px;
+	background:#ffa601;
+	color:white;
+	text-align:center;
+	margin-bottom: 20px;
+	
+}
+
+.plocation2{
+	padding-bottom: 10px;
+
+}
+
+.propcontainer{
+
+	padding-top: 20px;
+	background-color: white;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+
+.emailbtn{
+	
+	color: white;
+	padding:6px 10px;
+	border-radius: 10px;
+	background-color: rgb(63, 201, 63);
+}
+
